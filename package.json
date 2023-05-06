@@ -1,0 +1,15 @@
+{
+  "name": "newone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:e2e": "cypress run --headless",
+    "test": "cypress run --browser chrome --headed --spec cypress/e2e/113-tests/test.cy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.11.0"
+  }
+}
